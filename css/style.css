@@ -1,0 +1,331 @@
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* акцент #2196F3 */
+
+/* акцент 2 rgba(F,F,F,0.6) */
+
+/* белый #FFFFFF */
+
+/* вторичный цвет фона #2F303A */
+
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-fon: 'Raleway', sans-serif;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --accent-color-two: rgba(F,F,F,0.6);
+    --wite-color: #FFFFFF;
+    --black-color: #000000;
+    --hover-color: #188CE8;
+    --secondary-background-color: #2F303A;
+    --but-color: #F5F4FA;
+    --portfolio-cards-color: #EEEEEE;
+}
+
+body{
+color: var(--primary-text-color);
+background-color: var(--wite-color);
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.logo {
+font-family: var(--secondary-fon);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
+
+.web-color{
+color: var(--accent-color);
+}
+
+.studio-color{
+color: var(--black-color);    
+}
+
+.header{
+/* display: flex; */
+/* width: 100%; */
+/*height: 80px;*/
+left: 0px;
+top: 0px;
+
+background: var( --wite-color);
+}
+ 
+.nav-list{
+ /* display: flex;    */
+}
+
+.nav-link{
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color);
+
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active{
+color: var(--accent-color);
+}
+
+.tel-link{
+font-family:  var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--title-text-color);
+
+}
+.tel-link:hover,
+.tel-link:focus{
+color: var(--accent-color);  
+}
+
+.mailto-btn{
+font-family:  var(--main-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:var(--title-text-color);
+
+
+
+
+}
+.model-btn:hover,
+.model-btn:focus{
+color: var(--accent-color); 
+}
+
+.heroes{
+width: 100%;
+height: 600px;
+left: 0px;
+top: 80px;
+background: var( --secondary-background-color);
+}
+
+.hero-heading{
+font-family:  var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var( --wite-color);
+
+}
+.hero-btn{
+font-family:  var(--main-font);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+color: var( --wite-color);
+background: var(--accent-color);
+}
+.hero-btn:hover,
+.hero-btn:focus{
+ background-color: var(--hover-color);  
+}
+ 
+
+
+.advantages-heading{
+font-family:  var(--main-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--primary-text-color);
+
+}
+
+.advantages-paragraph{
+font-family:  var(--main-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+
+}
+
+.img-heading{
+font-family:  var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+}
+
+
+.img-heading{
+font-family:  var(--main-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+
+}
+
+
+.cards-list{
+width: 270px;
+height: 368px;
+left: 515px;
+top: 1635px;
+
+background: var( --wite-color);
+}
+
+.name-list{
+font-family:  var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+}
+
+.profession{
+font-family:  var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
+.fon{
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+
+background: var( --secondary-background-color);
+}
+
+.fon{
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+
+background: var( --secondary-background-color);
+}
+.studio-color-black{
+color: var( --wite-color);    
+}
+
+
+/*PORTFOLIO*/
+
+
+
+
+/*main portfolio*/
+
+.but{
+font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color:var(--primary-text-color);
+width: 128px;
+height: 38px;
+left: 576px;
+top: 174px;
+
+background: var(--but-color);
+border-radius: 4px;
+}
+
+.but:focus,
+.but:hover{
+background: var(--accent-color);
+color: var( --wite-color);
+}
+
+
+/*portfolio-cards*/
+
+.portfolio-cards{
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+
+background: var( --wite-color);
+border: 1px solid var(--portfolio-cards-color);
+box-sizing: border-box;
+}
+
+.card-name{
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+color: var(--primary-text-color);
+}
+
+.specification{
+font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
+.color-white {
+    color: var( --wite-color);
+}
