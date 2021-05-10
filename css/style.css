@@ -1,3 +1,12 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --secondary-color: #757575;
+  --color-cords: #212121;
+  --color-line: #ffffff;
+}
+
 .list {
   list-style: none;
 }
@@ -6,16 +15,20 @@
   text-decoration: none;
 }
 
+body {
+  font-family: var(--main-font);
+  color: var(--color-cords);
+}
 /* ===========index=========== */
 
 /* ===========footer=========== */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .studio-color {
@@ -23,45 +36,41 @@
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-cords);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .model-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .model-btn:hover,
 .model-btn:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .tel-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* ===========and footer=========== */
 
@@ -78,14 +87,12 @@
 }
 
 .hero-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-line);
 }
 
 /* .hero-btn */
@@ -97,78 +104,64 @@
   top: 430px;
   background: #188ce8;
   border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 16px;
   line-height: 1.8;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
-
+  color: var(--color-line);
   border: 1px solid #000000;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #2196f3;
+  background: var(--accent-color);
 }
 /* ===========and hero=========== */
 
 /* ===========advantages=========== */
 .advantages-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-cords);
 }
 .advantages-paragraph {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 /* ===========and advantages=========== */
 
 /* ===========img-heading=========== */
 .img-heading {
-  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-cords);
 }
 /* =========== and img-heading=========== */
 
 /* =========== cards=========== */
 .name-list {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-cords);
 }
 .profession {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* =========== and cards=========== */
@@ -185,19 +178,17 @@
 }
 
 .studio-color-wite {
-  color: #ffffff;
+  color: var(--color-line);
 }
 .map-color-white {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-line);
 }
 .contact-footer {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -209,5 +200,36 @@
 /* ===========and index=========== */
 
 /* ===========portfolio=========== */
+
+/* ===========main=========== */
+.but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-cords);
+}
+.but:hover,
+.but:focus {
+  color: var(--color-line);
+  background: var(--accent-color);
+}
+
+.card-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-cords);
+}
+.specification {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* ===========and main=========== */
 
 /* ===========and portfolio=========== */
