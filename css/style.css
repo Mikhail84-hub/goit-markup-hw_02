@@ -1,10 +1,14 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
   --accent-color: #2196f3;
   --secondary-color: #757575;
   --color-cords: #212121;
   --color-line: #ffffff;
+  --logo-color: #000000;
+  --hero-bg-color: #2f303a;
+  --hero-btn-color: #188ce8;
+  --footer-bg-color: #2f303a;
 }
 
 .list {
@@ -32,10 +36,11 @@ body {
 }
 
 .studio-color {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .nav-link {
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -76,13 +81,7 @@ body {
 
 /* ===========hero=========== */
 .background-color {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
-  border: 1px solid #000000;
+  background: var(--hero-bg-color);
   box-sizing: border-box;
 }
 
@@ -98,17 +97,11 @@ body {
 /* .hero-btn */
 
 .hero-btn {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  background: #188ce8;
-  border: 1px solid #000000;
-  font-weight: 900;
+  background: var(--hero-btn-color);
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   color: var(--color-line);
-  border: 1px solid #000000;
 }
 
 .hero-btn:hover,
@@ -119,7 +112,7 @@ body {
 
 /* ===========advantages=========== */
 .advantages-heading {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -137,7 +130,7 @@ body {
 
 /* ===========img-heading=========== */
 .img-heading {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -147,6 +140,10 @@ body {
 /* =========== and img-heading=========== */
 
 /* =========== cards=========== */
+.fon {
+  background: var(--footer-bg-color);
+}
+
 .name-list {
   font-weight: 500;
   font-size: 16px;
@@ -169,19 +166,13 @@ body {
 /* =========== footer=========== */
 
 .bg-address {
-  position: absolute;
   font-style: normal;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  background: #2f303a;
 }
 
 .studio-color-wite {
   color: var(--color-line);
 }
 .map-color-white {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
