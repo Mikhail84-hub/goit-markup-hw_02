@@ -11,6 +11,28 @@
   --footer-bg-color: #2f303a;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -23,9 +45,35 @@ body {
   font-family: var(--main-font);
   color: var(--color-cords);
 }
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6 IE7*/
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 /* ===========index=========== */
 
-/* ===========footer=========== */
+/* ===========heder=========== */
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -33,10 +81,23 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-right: 93px;
 }
 
 .studio-color {
   color: var(--logo-color);
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .nav-link.current {
+  color: var(--accent-color);
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 53px;
 }
 
 .nav-link {
@@ -50,6 +111,11 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
 }
 
 .model-btn {
@@ -77,7 +143,7 @@ body {
 .tel-link:focus {
   color: var(--accent-color);
 }
-/* ===========and footer=========== */
+/* ===========and heder=========== */
 
 /* ===========hero=========== */
 .background-color {
@@ -111,6 +177,7 @@ body {
 /* ===========and hero=========== */
 
 /* ===========advantages=========== */
+
 .advantages-heading {
   font-weight: 700;
   font-size: 14px;
