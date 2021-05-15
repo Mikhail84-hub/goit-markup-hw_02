@@ -79,17 +79,6 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
-
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6 IE7*/
-  clip: rect(1px 1px 1px 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
 /* ===========index=========== */
 
 /* ===========heder=========== */
@@ -202,9 +191,7 @@ body {
   color: var(--color-line);
   width: 900px;
 }
-
 /* .hero-btn */
-
 .hero-btn {
   background: var(--hero-btn-color);
   font-weight: 700;
@@ -215,7 +202,6 @@ body {
   height: 50px;
   margin-bottom: 30px;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
   background: var(--accent-color);
@@ -223,7 +209,6 @@ body {
 /* ===========and hero=========== */
 
 /* ===========advantages=========== */
-
 .advantages-heading {
   font-weight: 700;
   font-size: 14px;
@@ -249,16 +234,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
-
   margin-bottom: 50px;
 }
-
 .img {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .img :not(:last-child) {
   margin-right: 30px;
 }
@@ -268,16 +250,13 @@ body {
 .cards {
   background-color: var(--color-card-studio);
 }
-
 .img-heading {
   padding-top: 94px;
 }
-
 .name-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
 }
@@ -285,7 +264,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
@@ -296,11 +274,9 @@ body {
 .fon {
   background: var(--footer-bg-color);
 }
-
 .bg-address {
   font-style: normal;
 }
-
 .studio-color-wite {
   color: var(--color-line);
 }
@@ -337,7 +313,6 @@ body {
   color: var(--color-line);
   background: var(--accent-color);
 }
-
 .card-name {
   font-weight: 700;
   font-size: 18px;
@@ -352,7 +327,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
-
 /* ===========and main=========== */
 
 /* ===========and portfolio=========== */
