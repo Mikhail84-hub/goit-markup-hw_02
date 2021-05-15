@@ -34,6 +34,28 @@ img {
   display: block;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -57,6 +79,17 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6 IE7*/
+  clip: rect(1px 1px 1px 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 /* ===========index=========== */
 
 /* ===========heder=========== */
@@ -66,10 +99,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.header {
-  justify-content: auto;
 }
 
 .header .container {
@@ -194,18 +223,6 @@ body {
 /* ===========and hero=========== */
 
 /* ===========advantages=========== */
-
-.advantages {
-  display: flex;
-  width: 1170px;
-  margin: 0 auto;
-  margin-top: 120px;
-  margin-bottom: 94px;
-}
-
-.advantages-list:not(:last-child) {
-  margin-right: 30px;
-}
 
 .advantages-heading {
   font-weight: 700;
