@@ -94,7 +94,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -136,7 +135,7 @@ body {
 
 .navigation-list {
   display: flex;
-  align-items: center;
+  margin-left: auto;
 }
 
 .model-btn {
@@ -145,7 +144,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  margin-left: auto;
 }
 
 .model-btn:hover,
@@ -159,6 +157,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+  margin-left: 50px;
 }
 
 .tel-link:hover,
@@ -171,13 +170,12 @@ body {
 
 .heroes {
   padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 
 .background-color {
   background: var(--hero-bg-color);
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: 1600px;
   height: 600px;
 }
@@ -190,6 +188,7 @@ body {
   text-transform: uppercase;
   color: var(--color-line);
   width: 900px;
+  margin: 0 auto;
 }
 /* .hero-btn */
 .hero-btn {
@@ -200,7 +199,7 @@ body {
   color: var(--color-line);
   width: 200px;
   height: 50px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -209,6 +208,16 @@ body {
 /* ===========and hero=========== */
 
 /* ===========advantages=========== */
+.advantages {
+  display: flex;
+  margin-top: 94px;
+}
+.advantages-list:not(:last-child) {
+  margin-right: 30px;
+}
+.advantages-list {
+  justify-content: start;
+}
 .advantages-heading {
   font-weight: 700;
   font-size: 14px;
@@ -216,6 +225,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-text-cards);
+  margin-bottom: 10px;
 }
 .advantages-paragraph {
   font-weight: 400;
@@ -239,7 +249,6 @@ body {
 .img {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 .img :not(:last-child) {
   margin-right: 30px;
@@ -249,9 +258,16 @@ body {
 /* =========== cards=========== */
 .cards {
   background-color: var(--color-card-studio);
+  margin-top: 94px;
 }
 .img-heading {
   padding-top: 94px;
+}
+.cards-comands {
+  display: flex;
+}
+.cards-list:not(:last-child) {
+  margin-right: 30px;
 }
 .name-list {
   font-weight: 500;
@@ -259,6 +275,8 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
+  text-align: center;
+  margin-top: 30px;
 }
 .profession {
   font-weight: 400;
@@ -266,6 +284,9 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* =========== and cards=========== */
@@ -276,9 +297,18 @@ body {
 }
 .bg-address {
   font-style: normal;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-list {
+  margin-top: 20px;
 }
 .studio-color-wite {
   color: var(--color-line);
+}
+.nav-footer {
+  margin-top: 20px;
+  /* padding-bottom: 60px; */
 }
 .map-color-white {
   font-weight: 400;
@@ -286,21 +316,45 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-line);
+  margin-bottom: 9px;
 }
+
 .contact-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 60px;
 }
+.footer-navigation:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 /* ===========and footer=========== */
 
 /* ===========and index=========== */
 
 /* ===========portfolio=========== */
-
+.logo-portfolio {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.header-portfolio {
+  border: 1px solid #ececec;
+}
 /* ===========main=========== */
+.portfolio-btn {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 94px;
+  flex-basis: calc (100% / 5 - 495px);
+  margin-left: 8px;
+}
+.portfolio-button:not(:last-child) {
+  margin-left: 8px;
+}
 .but {
   font-weight: 500;
   font-size: 16px;
@@ -313,12 +367,28 @@ body {
   color: var(--color-line);
   background: var(--accent-color);
 }
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+.portfolio-item {
+  flex-basis: calc (100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  border: 1px solid #ececec;
+}
 .card-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-text-cards);
+  width: 320px;
+  padding-left: 24px;
+  padding-top: 20px;
 }
 .specification {
   font-weight: 400;
@@ -326,6 +396,9 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  width: 320px;
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 /* ===========and main=========== */
 
