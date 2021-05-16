@@ -200,6 +200,7 @@ body {
   width: 200px;
   height: 50px;
   margin-top: 30px;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -210,13 +211,15 @@ body {
 /* ===========advantages=========== */
 .advantages {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 94px;
+  margin-left: 30px;
 }
 .advantages-list:not(:last-child) {
   margin-right: 30px;
 }
 .advantages-list {
-  justify-content: start;
+  flex-basis: calc(100% / 4 - 30px);
 }
 .advantages-heading {
   font-weight: 700;
@@ -248,11 +251,14 @@ body {
 }
 .img {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
-.img :not(:last-child) {
-  margin-right: 30px;
+.pictures {
+  flex-basis: calc (100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
+
 /* =========== and img-heading=========== */
 
 /* =========== cards=========== */
@@ -265,9 +271,12 @@ body {
 }
 .cards-comands {
   display: flex;
+  flex-wrap: wrap;
 }
-.cards-list:not(:last-child) {
-  margin-right: 30px;
+.cards-list {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .name-list {
   font-weight: 500;
@@ -305,6 +314,9 @@ body {
 }
 .studio-color-wite {
   color: var(--color-line);
+}
+.footer-nav-contact:not(:last-child) {
+  margin-bottom: 9px;
 }
 .nav-footer {
   margin-top: 20px;
@@ -346,14 +358,14 @@ body {
 /* ===========main=========== */
 .portfolio-btn {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 94px;
-  flex-basis: calc (100% / 5 - 495px);
-  margin-left: 8px;
 }
-.portfolio-button:not(:last-child) {
-  margin-left: 8px;
+.but-port:not(:last-child) {
+  margin-right: 8px;
+}
+.portfolio-button {
+  border-radius: 4px;
 }
 .but {
   font-weight: 500;
@@ -361,6 +373,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
+  border: none;
 }
 .but:hover,
 .but:focus {
