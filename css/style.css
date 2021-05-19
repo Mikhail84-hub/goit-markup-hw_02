@@ -89,7 +89,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .header .container {
   display: flex;
   align-items: center;
@@ -349,8 +352,6 @@ body {
 
 /* ===========portfolio=========== */
 .logo-portfolio {
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .header-portfolio {
   border: 1px solid #ececec;
