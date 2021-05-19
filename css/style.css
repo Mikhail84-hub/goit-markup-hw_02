@@ -160,7 +160,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
 .tel-link:hover,
@@ -171,16 +171,14 @@ body {
 
 /* ===========hero=========== */
 
-.heroes {
-  padding-top: 200px;
-  text-align: center;
-}
-
 .background-color {
   background: var(--hero-bg-color);
-  /* box-sizing: border-box; */
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  text-align: center;
   width: 1600px;
-  height: 600px;
+  /* height: 600px; */
 }
 
 .hero-heading {
@@ -190,7 +188,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-line);
-  width: 900px;
+  width: 696px;
   margin: 0 auto;
 }
 /* .hero-btn */
@@ -200,8 +198,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   color: var(--color-line);
-  width: 200px;
-  height: 50px;
+  padding: 10px 32px;
   margin-top: 30px;
   border-radius: 4px;
 }
@@ -215,8 +212,12 @@ body {
 .advantages {
   display: flex;
   flex-wrap: wrap;
+  /* margin-top: 94px; */
+  /* margin-left: 30px; */
+}
+.advantages-heading-list {
   margin-top: 94px;
-  margin-left: 30px;
+  /* margin-bottom: 94px; */
 }
 .advantages-list:not(:last-child) {
   margin-right: 30px;
@@ -252,12 +253,18 @@ body {
   color: var(--color-text-cards);
   margin-bottom: 50px;
 }
+.heading-list {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .img {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .pictures {
-  flex-basis: calc (100% / 3 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -267,19 +274,26 @@ body {
 /* =========== cards=========== */
 .cards {
   background-color: var(--color-card-studio);
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .img-heading {
-  padding-top: 94px;
+  /* padding-top: 94px; */
 }
 .cards-comands {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .cards-list {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+}
+.card-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .name-list {
   font-weight: 500;
@@ -287,8 +301,8 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
-  text-align: center;
-  margin-top: 30px;
+  /* text-align: center; */
+  /* margin-top: 30px; */
 }
 .profession {
   font-weight: 400;
@@ -296,9 +310,9 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  text-align: center;
+  /* text-align: center; */
   margin-top: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 /* =========== and cards=========== */
