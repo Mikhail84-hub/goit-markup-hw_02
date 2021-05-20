@@ -283,15 +283,15 @@ body {
 .cards-comands {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
   margin-top: -30px;
+  margin-left: -30px;
 }
 .cards-list {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
   margin-top: 30px;
+  margin-left: 30px;
 }
-.card-name {
+.card-name-comand {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -320,11 +320,11 @@ body {
 /* =========== footer=========== */
 .fon {
   background: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .bg-address {
   font-style: normal;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .footer-list {
   margin-top: 20px;
@@ -337,7 +337,6 @@ body {
 }
 .nav-footer {
   margin-top: 20px;
-  /* padding-bottom: 60px; */
 }
 .map-color-white {
   font-weight: 400;
@@ -365,8 +364,7 @@ body {
 /* ===========and index=========== */
 
 /* ===========portfolio=========== */
-.logo-portfolio {
-}
+
 .header-portfolio {
   border: 1px solid #ececec;
 }
@@ -399,11 +397,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: 50px;
+  margin-top: -30px;
   margin-bottom: 94px;
 }
 .portfolio-item {
-  flex-basis: calc (100% / 3 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #ececec;
