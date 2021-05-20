@@ -292,6 +292,7 @@ body {
   margin-left: 30px;
 }
 .card-name-comand {
+  text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -373,6 +374,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 94px;
+  margin-bottom: 50px;
 }
 .but-port:not(:last-child) {
   margin-right: 8px;
@@ -404,6 +406,9 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
+  /* border: 1px solid #ececec; */
+}
+.circuit {
   border: 1px solid #ececec;
 }
 .card-name {
