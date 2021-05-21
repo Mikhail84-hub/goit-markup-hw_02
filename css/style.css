@@ -34,28 +34,6 @@ img {
   display: block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
-}
-
 .list {
   list-style: none;
 }
@@ -406,7 +384,6 @@ body {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  /* border: 1px solid #ececec; */
 }
 .circuit {
   border: 1px solid #ececec;
@@ -417,7 +394,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color-text-cards);
-  width: 320px;
   padding-left: 24px;
   padding-top: 20px;
 }
